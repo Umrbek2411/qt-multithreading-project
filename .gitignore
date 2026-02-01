@@ -1,0 +1,33 @@
+# Qt qmake fayllar
+*.pro.user
+*.pro.user.*
+Makefile
+*.o
+*.so
+*.a
+moc_*
+ui_*
+qrc_*
+
+# Build papkalari
+build/
+build-*/
+
+# Executable fayllar
+console_app
+gui_app
+*.exe
+
+# Qt cache
+.qmake.stash
+
+# IDE fayllar
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS fayllar
+.DS_Store
+Thumbs.db
